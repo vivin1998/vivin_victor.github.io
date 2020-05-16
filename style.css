@@ -1,0 +1,395 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: Arial, sans-serif;
+	line-height: 1.4;
+	color: #333;
+	overflow-x: hidden;
+}
+.text-primary{
+	color: orange;
+}
+.container{
+	max-width: 1100px;
+	margin: auto;
+}
+#navbar{
+	display: flex;
+	justify-content: space-between;
+	background-color: black;
+	align-items: center;
+	padding: 2rem 2rem;
+	color: white;
+	position: sticky;
+	top: 0;
+	z-index: 3;
+	border-bottom: 4px solid orange;
+}
+#navbar h2{
+	cursor: pointer;
+	color: white;
+	letter-spacing: 0.3em;
+}
+#navbar a{
+	text-decoration: none;
+}
+#navbar ul{
+	list-style-type: none;
+	display: flex;
+	align-items: center;
+}
+#navbar ul li{
+	padding: 0 2rem;
+}
+#navbar ul li a{
+	color: white;
+	text-decoration: none;
+	font-size: 18px;
+	text-transform: capitalize;
+	padding: 15px 15px;
+	border-radius: 10px;
+	font-family: cursive;
+
+}
+#navbar ul li a:hover{
+	color: black;
+	background-color: orange;
+	transition: 0.4s;
+}
+#show{
+	background-image: url("img/p4.jpg");
+	height: 90.7vh;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.showcase-content{
+	background: rgba(0,0,0,0.6);
+	height: 87.7vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.container h2{
+	color: white;
+	font-size: 30px;
+	letter-spacing: 0.9em;
+	margin-bottom: 2rem;
+	cursor: pointer;
+}
+.btn a{
+	justify-content: center;
+
+}
+#product{
+	background-color: black;
+	height: 100vh;
+	background-attachment: fixed;
+}
+
+.conta{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+
+}
+.pr{
+	position: relative;
+	top: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+.pr h3{
+	color: white;
+	letter-spacing: 0.5em;
+	font-family: cursive;
+
+}
+.pr hr{
+	margin-right: auto;
+	margin-left: auto;
+	width: 20%;
+}
+.pp{
+	height: auto;
+	width: 1200px;
+	border: 2px solid orange;
+	position: relative;
+	top: 110px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 2rem;
+	background-color: transparent;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.pp img{
+	height: 200px;
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	justify-content: center;
+	margin-bottom: 2rem;
+	filter: grayscale(100%);
+	border-radius: 20px;
+
+}
+.pp img:hover{
+	transition: 0.6s;
+	transform: scale(1.1);
+}
+.pp p{
+	text-align: center;
+	margin-top: 10px;
+	color: grey;
+	margin-bottom: 1rem;
+	font-family: cursive;
+}
+.pp button{
+	display: flex;
+	flex-direction: row;
+}
+ #b1{
+ 	margin-left: 90px;
+ 	margin-bottom: 1rem;
+ 	padding: 10px 20px;
+ 	color: black;
+ 	background-color: orange;
+ 	border: 2px solid orange;
+ 	height: auto;
+ 	width: 100px;
+ 	border-radius: 10px;
+ }
+ #b2{
+ 	margin-left: 75px;
+ 	margin-bottom: 1rem;
+ 	padding: 10px 30px;
+ 	color: black;
+ 	background-color: orange;
+ 	border: 2px solid orange;
+ 	height: auto;
+ 	width: 130px;
+ 	border-radius: 10px;
+ }
+ #skill{
+ 	background-color: black;
+	height: 97.7vh;
+	background-attachment: fixed;
+
+ }
+ .cc2{
+ 	display: flex;
+ 	flex-direction: column;
+ 	flex-wrap: wrap;
+ 	justify-content: center;
+ 	margin-top: 5rem;
+ 	height: auto;
+ 	width: 1100px;
+ 	border: 2px solid orange;
+ }
+ .cc{
+ 	position:relative;
+ 	margin-right: auto;
+ 	margin-left: auto;
+ 	width: 70%;
+ 	background-color: orange;
+ 	border-radius: 20px;
+ 	margin-bottom: 1rem;
+ 	cursor: pointer;
+
+ }
+ .cc1{
+
+ 	text-align: right;
+ 	padding-top: 10px;
+ 	padding-bottom: 10px;
+ 	margin-bottom: 1rem;
+ 	cursor: pointer;
+ }
+ .cc2 p{
+ 	cursor: pointer;
+ 	color: orange;
+ 	font-size: 20px;
+ 	padding: 10px 50px;
+ 	text-align: center;
+ 	margin-bottom: 1rem;
+ 	text-transform: capitalize;
+ 	letter-spacing: 0.3em;
+ }
+
+ .html{
+ 	color: orange;
+ 	text-align: center;
+ 	font-size: 18px;
+ 	width: 90%;
+ 	background-color: black;
+ 	border: 1px solid orange;
+ 	border-radius: 20px;
+ }
+ .css{
+ 	color: orange;
+ 	text-align: center;
+ 	font-size: 18px;
+ 	width: 95%;
+ 	background-color: black;
+ 	border: 1px solid orange;
+ 	border-radius: 20px;
+ }
+ .js{
+ 	color: orange;
+ 	text-align: center;
+ 	font-size: 18px;
+ 	width: 70%;
+ 	background-color: black;
+ 	border: 1px solid orange; 	
+ 	border-radius: 20px;
+
+ }
+ .php{
+ 	color: orange;
+ 	text-align: center;
+ 	font-size: 18px;
+ 	width: 60%;
+ 	background-color: black;
+ 	border: 1px solid orange;
+ 	border-radius: 20px;
+ }
+ #contact{
+ 	height: 100vh;
+ 	background-color: black;
+ 	color: orange;
+
+ }
+ .f1{
+ 	display: flex;
+ 	flex-direction: column;
+ 	justify-content: center;
+ }
+ .form{
+ 	width: 400px;
+ 	height: auto;
+ 	border: 2px solid orange;
+ 	display: flex;
+ 	flex-direction: column;
+ 	justify-content: center;
+ 	margin-top: auto;
+ 	margin-bottom: auto;
+ }
+ .pr1{
+ 	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	position: relative;
+	top: 60px;
+ }
+ .pr1 h3{
+	color: white;
+	letter-spacing: 0.5em;
+	font-family: cursive;
+}
+.form{
+	position: relative;
+	top: 110px;
+	margin-left: auto;
+	margin-right: auto;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	font-family: cursive;
+}
+.form h4{
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	letter-spacing: 0.3em;
+	text-transform: capitalize;
+}
+.form input{
+	margin-bottom: 1rem;
+	border-radius: 20px;
+	width: auto;
+	height: 30px;
+	color: orange;
+	background-color: black;
+	border: 1px solid orange;
+	font-size: 18px;
+	padding: 0 5px;
+}
+.form textarea{
+	border-radius: 20px;
+	background-color: black;
+	color: orange;
+	border: 2px solid orange;
+	width: 250px;
+	height: 150px;
+	margin-bottom: 0.5rem;
+	font-size: 18px;
+	padding: 0 5px;
+}
+.form h4{
+	font-size: 18px;
+}
+.form input::placeholder{
+	text-align: center;
+	color: orange;
+	font-size: 18px;
+	letter-spacing: 0.3em;
+}
+.form textarea::placeholder{
+	text-align: center;
+	color: orange;
+	font-size: 18px;
+	letter-spacing: 0.3em;
+}
+.form button{
+	margin-top: auto;
+	margin-bottom: auto;
+	height: 30px;
+	width: 150px;
+	color: orange;
+	background-color: black;
+	border: 1px solid orange;
+	border-radius: 30px;
+	font-size: 18px;
+	margin-bottom: 0.5rem;
+}
+#footer{
+	border-top: 2px solid orange;
+	height: 8rem;
+	background-color: black;
+	color: orange;
+	justify-content: center;
+	letter-spacing: 0.5em;
+	text-align: center;
+}
+#footer h4{
+	position: relative;
+	top: 50px;
+}
+.top{
+	float: right;
+	position: fixed;
+	right: 30px;
+	height: 50px;
+	width: 50px;
+	color: orange;
+	background-color: black;
+}
+.top i{
+	color: orange;
+}
+ ::-webkit-scrollbar{
+ 	width: 12px;
+ }
+ ::-webkit-scrollbar-thumb{
+ 	background:linear-gradient(black,orange,orange);
+ 	border-radius: 10px;
+ }
